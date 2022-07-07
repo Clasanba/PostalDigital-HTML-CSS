@@ -1,5 +1,5 @@
 body {
-	background: black;
+	background: rgba(49, 126, 197, 0.849);
 }
 
 .postcard {
@@ -11,6 +11,9 @@ body {
 .postcard-header {
 	display: flex;
 	justify-content: space-between;
+	padding: 5%;
+	padding-bottom: 2.5%;
+	font-family: "Sacramento", cursive;
 }
 img {
 	width: 50px;
@@ -29,19 +32,26 @@ h1 {
 }
 .body-left {
 	flex: 1;
+	padding-top: 4%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
 }
 .body-right {
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
+	padding-top: 2%;
+	padding-left: 2.5%;
+	padding-right: 4%;
 }
 .body-right input {
 	border: 0;
 	border-bottom: solid 1px grey;
+	font-family: "Amiri", serif;
 }
 p {
 	font-size: small;
 	font-style: italic;
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-family: "Amiri", serif;
 	width: max-content;
 }
 .postcard-footer {
@@ -49,8 +59,15 @@ p {
 }
 .postcard-footer button {
 	padding: 5px;
-	background-color: rgb(178, 175, 175);
+
+	background-color: gainsboro;
+	border: none;
 	color: black;
-	border-bottom: black;
-	font-style: oblique;
+	padding: 7px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	font-style: normal;
+	font-family: "Amiri", serif;
 }
